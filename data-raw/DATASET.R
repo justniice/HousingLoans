@@ -34,4 +34,5 @@ HousingLoans <- HousingLoans %>%
            ifelse(Action_Taken == "Loan originated", TRUE, FALSE)) %>%
   select(-Action_Taken)
 HousingLoans %>% select(-Loan_Amount_In_Thousands) %>% lapply(table)
-saveRDS(HousingLoans, "data_clean.rds")
+usethis::use_data(HousingLoans)
+
