@@ -5,14 +5,10 @@ Authors@R:
     person(given = "Keane",
            family = "Ng",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "kng23@amherst.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package contains data about housing loan applications for the year 2017
-in the state of Massachusetts.
-It includes information such as the property the loan was intended to underwrite, 
-the value of the property and whether the application was approved or denied. 
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: This package contains data about housing loan applications for the year 2017 in the state of Massachusetts. It includes information such as the property the loan was intended to underwrite, the value of the property and whether the application was approved or denied. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
